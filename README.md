@@ -65,6 +65,16 @@ Proof of Snowtrace Transaction History (https://testnet.snowtrace.io/address/0x7
 - **Remix Ethereum:** Compiling the Smart Contract.
 ![image](https://github.com/user-attachments/assets/872af9d8-5ecf-47dc-9a36-2f7197565be6)
 
+### Executing program
+
+To run this program, you can utilize Remix, an online Solidity IDE. Begin by visiting the Remix website at https://remix.ethereum.org/.
+
+After accessing the Remix website, create a new file by clicking the "+" icon in the left-hand sidebar. Save the file with a .sol extension (for example, FinalProject.sol). Then, copy and paste the following code into the file:
+
+To compile the code, navigate to the "Solidity Compiler" tab on the left-hand side of the sidebar. Ensure the "Compiler" version is set to "0.8.18", and then click the "Compile DegenToken.sol" button.
+
+After compiling, you can deploy the contract by going to the "Deploy & Run Transactions" tab on the left-hand side of the sidebar. Choose the "DegenToken - contracts/DegenToken.sol" contract from the dropdown menu and click the "Deploy" button.
+
 ### Running the Smart Contract
 - First: connect your Metamask account to Snowtrace TestNet.
 - Second: Request AVAX tokens from the avalanche testnet Faucet in order to deploy the contract.
